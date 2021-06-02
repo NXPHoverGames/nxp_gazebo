@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser.add_argument('--cloud_speed', default="NoClouds", help="Turn on clouds with given speed")
     parser.add_argument('--shadows', default=1, help="Shadows on [1] or off [0]")
     parser.add_argument('--video_widget', default="NotSet", help="GUI video widget on [1] or off [0]")
-    parser.add_argument('--update_rate', default=250, help="Real time update rate.")
+    parser.add_argument('--update_rate', default=50, help="Real time update rate.")
     parser.add_argument('--wind_speed', default="NotSet", help="Turn on wind with given mean speed.")
     parser.add_argument('--fog_params', default="NotSet", help="Dictionary of fog attributes (type, start_m, end_m, density).")
     parser.add_argument('--realtime_factor', default=1.0, help="Real time factor.")
